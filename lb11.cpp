@@ -14,7 +14,7 @@ int main()
     cout << "Введіть ваше слово: ";
     char Word[10];
     cin >> Word;
-    int a = 0;
+    int b = 0;
     for (int n = 0; n < strlen(Word); n++)
     {
         for (int a = 47;a < 58; a++)
@@ -25,7 +25,7 @@ int main()
             }
         }
     };
-    if (a == 1)
+    if (b == 1)
         cout << "Ваше слово " << Word << " має лише одну цифру." << endl;
     else 
         cout << "Ваше слово не має жодної цифри." << endl;
